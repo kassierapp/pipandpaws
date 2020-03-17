@@ -1,0 +1,13 @@
+// JSON Document
+
+var articles = {
+	"title1": "Upcoming",
+	"texts1": [
+		{
+			"P1": "Update 2020: We have exciting upcoming Maine Coon Kittens!"
+		},
+		{
+			"P2": "Please send an email or call."
+		}
+	]
+}

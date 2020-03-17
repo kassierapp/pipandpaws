@@ -1,0 +1,439 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'lovers_quarrelregular';
+    src: url('assets/lovers-quarrel/webfontkit-20200315-194556/loversquarrel-regular-webfont.woff2') format('woff2'),
+         url('assets/lovers-quarrel/webfontkit-20200315-194556/loversquarrel-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media (max-width : 628px ){
+	.navbar-brand img{
+		float: right;
+		padding-bottom: -10rem;
+	}
+	.btn-group{
+		margin-left: -30rem;
+		
+	}
+	
+	
+}
+@media (min-width:629px) {
+	.navbar-nav {
+    float:none;
+    margin-left:-40%;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+	font-size: 1.16rem;
+}
+
+}
+
+#reserve .btn{
+	background-color: #812bca;
+	color: #fbe473;
+}
+#reserve .btn:hover{
+	background-color: #9A50D9;
+	color: white;
+	text-decoration: none;
+}
+
+.active a{
+	color: #812bca !important;
+}
+	
+/*--------------------------------------------------------------------------Bg img---------------------------------------------------------------------------*/
+
+.bgimg-1{
+  position: relative;
+  opacity: 0.75;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("images/maine coon image.jpg");
+  min-height: 50rem;
+}
+
+
+#main .nav-link .btn {
+	margin-top: 20rem;
+	background-color: #812bca;
+}
+#main .btn:hover {
+	background-color: #9A50D9;
+	color: white;
+}
+
+
+.bgimg-2 {
+  background-image: url('assets/images/testimonials2.jpg');
+  min-height: 50rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	
+	
+}
+.bgimg-3 {
+  background-image: url('assets/images/silver.gif');
+  min-height: 50rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	
+}
+
+.bgimg-4 {
+  background-image: url('assets/images/Maine_Coon_Gorgeous.jpg');
+  min-height: 50rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+	
+}
+.bgimg-5 {
+  background-image: url('assets/images/house-2511060_960_720.jpg');
+  min-height: 50rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.75;
+	
+}
+
+.bgimg-6 {
+  background-image: url('assets/images/mainecoonkitten.jpg');
+  min-height: 50rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.85;
+	
+}
+
+
+/*----------------------------------------------------------------------End of BG Img--------------------------------------------------------------------------------*/
+
+
+main h1{
+	color: #fbe473;
+	font-size: 7rem;
+	font-family: lovers quarrel;
+	padding-top: 10rem;
+}
+
+
+main p{
+	color: white;
+	text-align: center;
+	font-size: 2rem;
+}
+#main2 h1{
+	color: #fbe473;
+	font-size: 10rem;
+	font-family: lovers quarrel;
+}
+
+#main2 .container-fluid {
+	background-color:#812bca;
+	color: #fbe473;
+	padding: 1rem 7rem 0rem 7rem;
+}
+#main2 .learn{
+	position:relative;
+	top: 3rem;
+}
+
+#main3 h1{
+	color: #fbe473;
+	font-size: 10rem;
+	font-family: lovers quarrel;
+	padding-top: 3rem;
+	padding-left: 10rem;
+}
+#main3 p{
+	color: white;
+	float: left;
+	font-size: 2rem;
+	padding-left: 10rem;
+}
+.btn-group{
+	padding-left: 40rem;
+	padding-top: 15rem;
+	
+}
+
+.btn-group .btn{
+	background-color: #fbe473;
+	color: black;
+	border-radius: 2rem;
+}
+
+article h3 {
+	text-align: center;
+	font-family: lovers quarrel;
+	font-size: 4rem;
+}
+article .container-fluid{
+	background-color:#812bca;
+	color: #fbe473;
+	padding: 1rem 7rem 6rem 7rem;
+	
+}
+
+article .container-fluid .btn:hover{
+	background-color: #fbe473;
+	color:#812bca;
+	text-decoration: none;
+}
+
+article2 .col{
+	background-color: #812bca;
+	color: #fbe473;
+}
+article2 .container-fluid{
+	padding-left: 2rem;
+}
+
+article4 .container{
+	background-color:#812bca;
+	color: #fbe473;
+}
+#background {
+	background-color: black;
+	
+}
+#article5 .card-body{
+	background-color: #AD6BE5;
+	color: white;
+}
+.thumbnail img {
+    height: 20rem;
+    width:25rem;
+}
+
+.container2 .thumbnail img{
+	height: 30rem;
+    width:25rem;
+}
+
+#article6 h1{
+	font-family: lovers quarrel;
+	font-size: 10rem;
+}
+
+#article7 h1{
+	font-family: lovers quarrel;
+	font-size: 5rem;
+}
+
+#article7 b{
+	color: #812bca;
+}
+
+.card-body h1{
+	font-family: lovers quarrel;
+	font-size: 7rem;
+}
+
+#cont{
+	background-color: #812bca;
+	
+}
+
+ul.no_bullet {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+
+.kittens .btn{
+	background-color: #812bca;
+	color: #fbe473;
+}
+.kittens .btn:hover{
+	background-color: #9A50D9;
+	color: white;
+}
+
+
+.learn .btn{
+	  border-radius: 5rem;
+	 background-color: #812bca;
+	color: white;
+	font-size: 1rem;
+	
+}
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: .2rem;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+/*--------------------------------------------------------------------HOVER----------------------------------------------------------------------*/
+
+.hover {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 60%;
+}
+
+.hover-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  transition: all 0.4s;
+}
+
+.hover img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.3s;
+}
+
+.hover-content {
+  position: relative;
+  z-index: 99;
+}
+.hover-3::after {
+  content: '';
+  width: calc(100% - 3rem);
+  height: calc(100% - 3rem);
+  border: 1px solid #fff;
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  z-index: 90;
+  transition: all 0.3s;
+  transform: scale(1.1);
+  opacity: 0;
+  display: block;
+}
+
+.hover-3-content {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
+  z-index: 99;
+}
+
+.hover-3-description {
+  opacity: 0;
+  transform: scale(1.3);
+  transition: all 0.3s;
+}
+
+.hover-3 img {
+  width: 110%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hover-3 .hover-overlay {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.hover-3:hover img {
+  width: 100%;
+}
+
+.hover-3:hover::after {
+  opacity: 1;
+  transform: none;
+}
+
+.hover-3:hover .hover-3-description {
+  opacity: 1;
+  transform: none;
+}
+
+.hover-3:hover .hover-overlay {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+article3 h1{
+	font-size: 9rem;
+	font-family: lovers quarrel;
+}
+article3 h3{
+	color:#812bca;
+}
+
+article3 .container-fluid{
+	padding: 1rem 7rem 6rem 7rem;
+}
+/*-----------------------------------------------------------------------GALLERY-------------------------------------------------------------------*/
+#article4 .container .col {
+	min-height: 20rem;
+	min-width: 20rem;
+}
+#article4 h1{
+	font-family: lovers quarrel;
+	font-size: 10rem;
+	padding-top: 5rem;
+	padding-bottom: 10rem;
+}
+
+
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+
+/*-------------------------------------------------------------------------FOOTER------------------------------------------------------------------------*/
+
+
+footer {
+	font-size: 0.7rem;
+}
+
+footer .container-fluid{
+	padding: 1rem 7rem 6rem 7rem;
+	text-align: justify;
+}
+footer a{
+	color: black;
+}
+footer a:hover{
+	color:  #812bca;
+}
